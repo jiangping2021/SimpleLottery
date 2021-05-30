@@ -1,0 +1,143 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "dc074827ab4ba8d3758c523415e4887f660d23552ef1e88faac911c0b1f3a81b": {
+      "address": "0x37eF87506509F5356D0B12A08F513E85c19Da76f",
+      "txHash": "0xc09c38e08bfcae50af3a6dc90b5dc47a5866e7c89e86a949d2fafdc0e7620a3b",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "Lottery.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "winner",
+            "type": "t_address_payable",
+            "src": "Lottery.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "Lottery.sol:9"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "86d3189aa9ae9f1cb3259729ab723c2bc1a0a2433126033b978d87423c2814e5": {
+      "address": "0x620f4e5DDc79ec192cD7246B423a7bD0903C1feC",
+      "txHash": "0xd1cc7ab5819e92d2ba781189be86c5dd805d30ca85f0f0684b4298b4c85a6910",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "LotteryV2.sol:6"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "LotteryV2.sol:7"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "winner",
+            "type": "t_address_payable",
+            "src": "LotteryV2.sol:8"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "LotteryV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x03152e351D9df642d24118d3417f8795661D2975",
+    "txHash": "0x76c1ba2b816e34704e263bbfd8dbb249956aadeb1b1e85b8901865f9bcb10c4b"
+  }
+}

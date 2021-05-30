@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/Users/chenghaiming/work/java-tool/apache-jmeter-5.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/chenghaiming/work/codes/lottery/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 0.0.0.0:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+
+npm manifest: 
+  {
+    "name": "truffle-simplelottery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/waittingboy/truffle-simplelottery.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/waittingboy/truffle-simplelottery/issues"
+    },
+    "homepage": "https://github.com/waittingboy/truffle-simplelottery#readme",
+    "devDependencies": {
+      "@openzeppelin/truffle-upgrades": "^1.5.2"
+    },
+    "dependencies": {
+      "truffle-hdwallet-provider": "^1.0.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

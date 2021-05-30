@@ -1,0 +1,29 @@
+{
+  "name": "truffle-simplelottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waittingboy/truffle-simplelottery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waittingboy/truffle-simplelottery/issues"
+  },
+  "homepage": "https://github.com/waittingboy/truffle-simplelottery#readme",
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.5.2"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

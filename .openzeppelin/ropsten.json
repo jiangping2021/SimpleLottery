@@ -1,0 +1,76 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "dc074827ab4ba8d3758c523415e4887f660d23552ef1e88faac911c0b1f3a81b": {
+      "address": "0xbbb989b25596fe2de8aFb8cE8f10C8C5115F7081",
+      "txHash": "0x85d190ad989eeeaf73946fdb58aca92c01c6aedd97e4652be7e838d58ef340e4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\upgrades-core\\contracts\\Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\upgrades-core\\contracts\\Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\upgrades-core\\contracts\\Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "..\\..\\..\\..\\..\\..\\E\\BlockChain\\Project\\Study\\Truffle\\truffle-simplelottery\\contracts\\Lottery.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "..\\..\\..\\..\\..\\..\\E\\BlockChain\\Project\\Study\\Truffle\\truffle-simplelottery\\contracts\\Lottery.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "winner",
+            "type": "t_address_payable",
+            "src": "..\\..\\..\\..\\..\\..\\E\\BlockChain\\Project\\Study\\Truffle\\truffle-simplelottery\\contracts\\Lottery.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\E\\BlockChain\\Project\\Study\\Truffle\\truffle-simplelottery\\contracts\\Lottery.sol:9"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x906d2930412c50Dab1061fEAA04Ab04682E74dFE",
+    "txHash": "0x59effcf4fcf8738c6176448c5c9c064ea835ce9dd18123fa04dc5a71584c0310"
+  }
+}

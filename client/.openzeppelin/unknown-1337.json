@@ -1,0 +1,425 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "dc074827ab4ba8d3758c523415e4887f660d23552ef1e88faac911c0b1f3a81b": {
+      "address": "0xe999a67c4bdc06987124a1624deC905C3C1858f7",
+      "txHash": "0xde99907aefc4f777d63158a9f179607e01ba3956e6ae279942f1b5691c3a7819",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "LotteryV.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "LotteryV.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "winner",
+            "type": "t_address_payable",
+            "src": "LotteryV.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "LotteryV.sol:9"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "86d3189aa9ae9f1cb3259729ab723c2bc1a0a2433126033b978d87423c2814e5": {
+      "address": "0x121882415dC64612d45a32791aed354d69a83B54",
+      "txHash": "0xb9963d275658b574b41836fbeae536e3be20c16877b8632801a7faa86f707608",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "LotteryV2.sol:6"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "LotteryV2.sol:7"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "winner",
+            "type": "t_address_payable",
+            "src": "LotteryV2.sol:8"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "LotteryV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "af56367df1dae46266b4904ea6ea803f541d3125b1b916415e87124f816fccd6": {
+      "address": "0x6e28209fdec398a8B58F482A16C61ac3E890c38F",
+      "txHash": "0x98968b693bcd09d683bc02dd47ed20484dd68e050c8e8a08ed6be95f4f7dcdb4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "Lottery.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "seeds",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "Lottery.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:10"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:11"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:13"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:14"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "Lottery.sol:16"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "9b342f06e9accb45f45f80a19e871f0e54ed4927ca57b0c54d88412d15b013d7": {
+      "address": "0xeCcC16342e1728C2bb3065a44bd5fd2C80859344",
+      "txHash": "0x65e641d8577005a4ab0ccdcbdd994b3cb4ae1c4facfad539a6951b80d455ee5d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "Lottery.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "seeds",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "Lottery.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:10"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:11"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:13"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:14"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "Lottery.sol:16"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "8b5bdc858760702be0e8b1073ffd2b24d9d65ff095d6c0a454730205a83eac13": {
+      "address": "0x63a9b6F9FA93C7086B9688218e80524dEb89f62d",
+      "txHash": "0xc04a56984c09c9110fca00d9fd77b4000805cd05220d0ede30c9c1aa2eee91bb",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../client/@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "manager",
+            "type": "t_address_payable",
+            "src": "Lottery.sol:6"
+          },
+          {
+            "contract": "Lottery",
+            "label": "players",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:7"
+          },
+          {
+            "contract": "Lottery",
+            "label": "seeds",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "Lottery.sol:8"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:10"
+          },
+          {
+            "contract": "Lottery",
+            "label": "currentSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:11"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastFirstPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:13"
+          },
+          {
+            "contract": "Lottery",
+            "label": "lastSecondPrize",
+            "type": "t_array(t_address_payable)dyn_storage",
+            "src": "Lottery.sol:14"
+          },
+          {
+            "contract": "Lottery",
+            "label": "round",
+            "type": "t_uint256",
+            "src": "Lottery.sol:16"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_address_payable)dyn_storage": {
+            "label": "address payable[]"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0xf5A9B203e154B35cdba071B559d89571497Bd5F5",
+    "txHash": "0x46f4d6a328657cbabc5a3df414be908fe56b96d47fec2d6bc39749cf3457089f"
+  }
+}
