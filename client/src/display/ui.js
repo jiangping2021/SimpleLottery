@@ -29,7 +29,7 @@ const CardExampleCard = (props) => {
             {/* <Image src='/images/lottery.jpg' wrapped ui={false}/> */}
 
             <Card.Content>
-                {/* <Card.Header>福利彩票（海口站）</Card.Header> */}
+                {/*彩票*/}
                 <Card.Meta>
                     <p>管理员地址：{props.manager}</p>
                     <p>当前地址：{props.currentAccount}</p>
