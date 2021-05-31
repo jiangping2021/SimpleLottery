@@ -8,7 +8,7 @@
 
 
 搭建并运行可升级智能合约框架
-1. 在lottery根目录下
+1. 在simplelottery根目录下
 > npm install : 安装依赖包
 
 2. 部署合约
